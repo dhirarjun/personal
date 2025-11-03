@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjun Dhir — Professional Bridge Player</title>
+    <style>
+        /* Color Palette */
+        :root {
+            --navy: #0B3D91;
+            --cream: #FDF5E6;
+            --accent: #D9B382;
+        }
+
+        /* Reset & Base */
+        * {margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif;}
+        body {background-color: var(--cream); color: var(--navy); line-height: 1.6;}
+        a {color: var(--accent); text-decoration: none;}
+        a:hover {text-decoration: underline;}
+
+        /* Navbar */
+        nav {
+            background-color: var(--navy);
+            color: var(--cream);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {margin-left: 1rem; color: var(--cream); font-weight: bold;}
+
+        /* Hero */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 70vh;
+            text-align: center;
+            color: var(--cream);
+            padding: 2rem;
+            background-image: url('https://via.placeholder.com/1200x400/0B3D91/FDF5E6?text=Bridge+Pro');
+            background-size: cover;
+            background-position: center;
+        }
+        .hero h1 {font-size: 3rem; margin-bottom: 1rem;}
+        .hero p {font-size: 1.2rem; margin-bottom: 2rem;}
+        .hero a {padding: 0.75rem 1.5rem; background-color: var(--accent); color: var(--navy); border-radius: 5px; font-weight: bold;}
+
+        /* Section */
+        section {padding: 4rem 2rem; max-width: 900px; margin: auto;}
+        h2 {color: var(--navy); margin-bottom: 1rem; font-size: 2rem; text-align: center;}
+        p {margin-bottom: 1rem; text-align: center;}
+
+        /* About Page */
+        .about img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 1rem auto;
+            object-fit: cover;
+        }
+
+        /* Philosophy */
+        .philosophy blockquote {
+            font-style: italic;
+            font-size: 1.2rem;
+            margin: 2rem auto;
+            max-width: 700px;
+            padding: 1rem 2rem;
+            border-left: 5px solid var(--accent);
+            background-color: #f7f0e3;
+        }
+
+        /* Booking */
+        .booking iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+            margin-top: 2rem;
+        }
+
+        /* Contact */
+        .contact p {text-align: center; margin: 0.5rem 0;}
+
+        /* Footer */
+        footer {
+            background-color: var(--navy);
+            color: var(--cream);
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        /* Responsive */
+        @media(max-width: 768px){
+            .hero h1 {font-size: 2.2rem;}
+            .hero p {font-size: 1rem;}
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div>Arjun Dhir</div>
+        <div>
+            <a href="#about">About</a>
+            <a href="#philosophy">Philosophy</a>
+            <a href="#booking">Booking</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Arjun Dhir</h1>
+        <p>Professional Bridge Player — Representing the USA Internationally</p>
+        <a href="#booking">Book Me</a>
+    </section>
+
+    <!-- About Page -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <img src="https://via.placeholder.com/200/0B3D91/FDF5E6?text=Arjun+Dhir" alt="Arjun Dhir">
+        <p>Arjun Dhir is a professional bridge player with almost 15 years of experience. He has represented the USA internationally in China, Turkey, and Italy.</p>
+        <p>Career Highlights:</p>
+        <ul style="max-width: 600px; margin:auto; text-align:left;">
+            <li>15 years as a professional bridge player</li>
+            <li>International representation for the USA: China, Turkey, Italy</li>
+            <li>Numerous national and regional tournament victories</li>
+        </ul>
+    </section>
+
+    <!-- Philosophy Page -->
+    <section id="philosophy" class="philosophy">
+        <h2>My Philosophy</h2>
+        <blockquote>
+            “Bridge should never feel stressful — especially when you’re learning. My goal is to create an atmosphere that values good experiences, while not sacrificing results.”
+        </blockquote>
+        <p>Through years of competitive play, I focus on teaching and partnering in a way that balances skill, strategy, and enjoyment for every player.</p>
+    </section>
+
+    <!-- Booking Page -->
+    <section id="booking" class="booking">
+        <h2>Book a Session</h2>
+        <p>Reserve a session or tournament partnership with Arjun Dhir below. Payment can be completed directly through the booking system.</p>
+        <!-- Placeholder for Calendly embed -->
+        <iframe src="https://calendly.com/your-placeholder-link" title="Booking Calendar"></iframe>
+
+        <!-- Contact Info -->
+        <div class="contact">
+            <p>Email: <a href="mailto:dhirarjun@gmail.com">dhirarjun@gmail.com</a></p>
+            <p>Phone: <a href="tel:+16786439555">678-643-9555</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Arjun Dhir. All Rights Reserved.
+    </footer>
+</body>
+</html>
